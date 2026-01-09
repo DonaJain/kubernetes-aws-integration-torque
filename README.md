@@ -4,7 +4,6 @@
 This repository demonstrates the design and deployment of a simple cloud environment using **Quali Torque** and **Terraform**.
 The implementation provisions a minimal AWS resource (S3 bucket) to focus on architecture clarity rather than resource complexity.
 
----
 
 ## Architecture
 - **IaC:** Terraform
@@ -13,7 +12,6 @@ The implementation provisions a minimal AWS resource (S3 bucket) to focus on arc
 - **Execution:** Kubernetes-based Torque Agent
 The blueprint contains a single Terraform grain, so no inter-grain dependencies are required.
 
----
 ## Credentials Required
 - Github
 - AWS
