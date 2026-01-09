@@ -4,6 +4,7 @@ variable "aws_region" {
   default     = "us-east-1"
 }
 
-variable "kub_aws_torques_s3_bucket" {
+variable "bucket_name" {
+  description = "S3 bucket name"
   type        = string
 }
