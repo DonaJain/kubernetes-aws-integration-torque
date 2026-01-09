@@ -1,8 +1,7 @@
 # Quali Torque – Terraform-Based Environment Deployment
 
 ## Overview
-This repository demonstrates the design and deployment of a simple cloud environment using **Quali Torque** and **Terraform**, aligned with Solutions Architect responsibilities such as infrastructure automation, platform integration, and execution reliability.
-
+This repository demonstrates the design and deployment of a simple cloud environment using **Quali Torque** and **Terraform**.
 The implementation provisions a minimal AWS resource (S3 bucket) to focus on architecture clarity rather than resource complexity.
 
 ---
@@ -10,12 +9,14 @@ The implementation provisions a minimal AWS resource (S3 bucket) to focus on arc
 ## Architecture
 - **IaC:** Terraform
 - **Cloud Provider:** AWS
-- **Orchestration:** Quali Torque (Blueprint + Terraform Grain)
+- **Orchestration:** Quali Torque
 - **Execution:** Kubernetes-based Torque Agent
-
-The blueprint contains a **single Terraform grain**, so no inter-grain dependencies are required.
+The blueprint contains a single Terraform grain, so no inter-grain dependencies are required.
 
 ---
+## Credentials Required
+- Github
+- AWS
 
 ## Terraform Module
 ### Inputs
